@@ -1,0 +1,122 @@
+/* Write CSS here */
+@media (min-width: 768px) {
+  .bg {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Roboto';
+  }
+
+  .card {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 350px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timer {
+    display: flex;
+    flex-direction: row;
+  }
+  .time-img {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+  }
+  .time {
+    font-size: 50px;
+  }
+  .start-btn {
+    background-color: #1db05f;
+    width: 60px;
+    border-width: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .stop-btn {
+    background-color: #ef0d36;
+    width: 60px;
+    border-width: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .restart-btn {
+    background-color: #eaa800;
+    width: 60px;
+    border-width: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+  .bg {
+    height: 100vh;
+    background-size: cover;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    padding-left: 100px;
+    padding-top: 100px;
+    font-family: 'Roboto';
+  }
+
+  .card {
+    background-color: #ffffff;
+    padding: 40px;
+    width: 350px;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .timer {
+    display: flex;
+    flex-direction: row;
+  }
+  .time-img {
+    height: 40px;
+    width: 40px;
+    padding-right: 10px;
+  }
+  .time {
+    font-size: 50px;
+  }
+  .start-btn {
+    background-color: #1db05f;
+    width: 60px;
+    border-width: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .stop-btn {
+    background-color: #ef0d36;
+    width: 60px;
+    border-width: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-right: 20px;
+  }
+  .restart-btn {
+    background-color: #eaa800;
+    width: 60px;
+    border-width: 0;
+    padding: 5px;
+    color: #ffffff;
+    border-radius: 5px;
+  }
+}
